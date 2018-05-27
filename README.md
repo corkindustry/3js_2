@@ -1,7 +1,7 @@
 # 3js_2
 2nd three.js script. Blue "bubbles".
 
-Can be viewed at [3.c0rk.ninja](http://3.c0rk.ninja)
+Can be viewed at [3.c0rk.ninja/1](http://3.c0rk.ninja/1)
 
 Needs an html file like this:
 
