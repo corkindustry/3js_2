@@ -1,3 +1,5 @@
+import * as THREE from 'three';
+
 var scene = new THREE.Scene();
 var camera = new THREE.PerspectiveCamera(35, window.innerWidth / window.innerHeight, 0.1, 3000);
 var renderer = new THREE.WebGLRenderer( { alpha: true });
@@ -20,9 +22,9 @@ var material = new THREE.MeshStandardMaterial(
   }
 );
 
-var cube = new THREE.Mesh(geometry, material);
+var cube: any = new THREE.Mesh(geometry, material);
 
-var cube = [];
+cube = [];
 for (var i = 0; i < 500; i++) {
   cube[i] = new THREE.Mesh(geometry, material);
   var x = Math.floor((Math.random() * window.innerWidth) - (window.innerWidth / 2));

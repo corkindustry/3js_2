@@ -1,0 +1,33 @@
+{
+  "name": "1",
+  "version": "1.0.0",
+  "description": "3js bubbles",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server",
+    "build": "webpack -d --watch",
+    "build:prod": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corkindustry/3js_2.git"
+  },
+  "author": "Jonah O'Neil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/corkindustry/3js_2/issues"
+  },
+  "homepage": "https://github.com/corkindustry/3js_2#readme",
+  "dependencies": {
+    "three": "^0.99.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.93.13",
+    "lite-server": "^2.4.0",
+    "ts-loader": "^5.3.2",
+    "typescript": "^3.2.2",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
