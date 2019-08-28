@@ -22,7 +22,7 @@ const material = new THREE.MeshStandardMaterial(
   }
 );
 
-const cube: any = [];
+const cube: any[] = [];
 
 for (let i = 0; i < 500; i++) {
   cube[i] = new THREE.Mesh(geometry, material);
