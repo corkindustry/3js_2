@@ -20,11 +20,11 @@
   },
   "homepage": "https://github.com/corkindustry/3js_2#readme",
   "devDependencies": {
-    "lite-server": "^2.4.0",
-    "ts-loader": "^6.0.4",
-    "typescript": "^3.2.2",
-    "webpack": "^4.28.2",
-    "webpack-cli": "^3.1.2"
+    "lite-server": "^2.5.4",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
   },
   "dependencies": {
     "three": "^0.108.0"
