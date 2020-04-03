@@ -1,5 +1,5 @@
 dependencies:
-  three: 0.108.0
+  three: 0.115.0
 devDependencies:
   lite-server: 2.5.4
   ts-loader: 6.2.1_typescript@3.7.5
@@ -3495,10 +3495,10 @@ packages:
     dev: true
     resolution:
       integrity: sha1-OORBT8ZJd9h6/apy+sttKfgve1s=
-  /three/0.108.0:
+  /three/0.115.0:
     dev: false
     resolution:
-      integrity: sha512-d1ysIXwi8qTlbmMwrTxi5pYiiYIflEr0e48krP0LAY8ndS8c6fkLHn6NvRT+o76/Fs9PBLxFViuI62iGVWwwlg==
+      integrity: sha512-mAV2Ky3RdcbdSbR9capI+tKLvRldWYxd4151PZTT/o7+U2jh9Is3a4KmnYwzyUAhB2ZA3pXSgCd2DOY4Tj5kow==
   /through2/2.0.5:
     dependencies:
       readable-stream: 2.3.7
@@ -3947,7 +3947,7 @@ packages:
       integrity: sha1-AI4G2AlDIMNy28L47XagymyKxBk=
 specifiers:
   lite-server: ^2.5.4
-  three: ^0.108.0
+  three: 0.115.0
   ts-loader: ^6.2.1
   typescript: ^3.7.5
   webpack: ^4.41.5
