@@ -11,7 +11,7 @@ document.body.appendChild(renderer.domElement);
 const light = new THREE.AmbientLight(0xffffff, 0.8);
 scene.add(light);
 
-const light1 = new THREE.PointLight(0xffffff, 0.5);
+const light1 = new THREE.PointLight(0xffffff, 0.7);
 scene.add(light1);
 
 const geometry = new THREE.IcosahedronGeometry(20, 0);

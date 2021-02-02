@@ -1,6 +1,7 @@
 {
-  "compilerOptions": {
-    "target": "es5",
-    "noImplicitAny": false
-  }
+	"compilerOptions": {
+		"target": "es6",
+		"moduleResolution": "node",
+	},
+	"include": [ "./dev/**/*.ts" ],
 }
